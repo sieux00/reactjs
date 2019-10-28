@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'TitilliumWeb-Bold';
+    src:url('../font/TitilliumWeb-Bold.ttf') format('truetype');
+    font-weight:bold;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: 'TitilliumWeb-SemiBold';
+    src:url('../font/TitilliumWeb-SemiBold.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: 'TitilliumWeb-Regular';
+    src:url('../font/TitilliumWeb-Regular.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+ul {
+    padding: 0;
+}
+
+button {
+    border: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(197, 130, 194);
+}
+
+.table thead th,
+.table tbody tr td
+{
+    border: 2px solid;
+    border-color: rgb(228, 160, 216)
+}
+
+a:hover {
+    background-color: #643a79;
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.backgroud {
+    background: rgb(197, 130, 194);
+}
+
+.container {
+    width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    overflow: auto;
+}
+
+.text {
+    color: purple;
+    font-size: 42.16px;
+    text-align: center;
+    font-family: 'TitilliumWeb-Bold';
+}
+
+.text2 {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'TitilliumWeb-SemiBold';
+}
+
+.text3 {
+    color: white;
+    font-size: 16px;
+    font-family: 'TitilliumWeb-Regular';
+    float: right;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.text3 li {
+    display: inline-block;
+    margin-left: 47px;
+}
+
+.button {
+    padding: 5px 15px;
+    margin: 5px 10px 5px 0px;
+}
+
+.button-parent {
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.home{
+    border-radius: 3px;
+    background-color: #643a79;
+    padding: 5px 15px;
+    border: 2px solid #000;
+}
+
+.addForm {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 50%;
+    border: 2px solid  rgb(228, 160, 216);
+    padding: 50px;
+}
